@@ -77,7 +77,7 @@ function draw () {
         ctx.lineTo(v.getX() + c.x, v.getY() + c.y);
         ctx.stroke();
     }
-
+ 
     function minuteHand () {
         ctx.lineWidth = 6;
         ctx.strokeStyle = 'black';
